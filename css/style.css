@@ -124,9 +124,10 @@ header .float-right {
 }
 
 .cards-services .container .card {
-    width: 20%;
-    height: 300px;
+    width: 31%;
     background-color: rosybrown;
+    float: left;
+    border: 1px solid gray;
 }
 
 .cards-services .container .card .type {
@@ -135,23 +136,94 @@ header .float-right {
     background-color: slateblue;
     line-height: 35px;
     text-align: center;
+    border: 1px solid gray;
 }
 
 .card .card-container {
     width: 75%;
-    height: 300px;
     margin: 0 auto;
     background-color: wheat;
+    font-size: 13px;
 }
 
 .card .card-container .border {
     width: 55px;
     height: 5px;
     border-bottom: 1px solid gray;
+    padding-top: 18px;
 }
 
 .card-container .priority ul li {
     list-style-type: none;
+}
+
+.card .card-container .user h2 {
+    font-size: 18px;
+    padding-top: 18px;
+}
+
+.card-container .price .price-month
+ {
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+.card-container .price .month {
+    font-weight: 600;
+    color: gray;
+    padding-bottom: 8px;
+}
+
+.card-container .quantity,
+.card-container .space,
+.card-container .functions {
+    padding: 10px 0;
+}
+
+.card-container .button {
+    padding-top: 16px;
+}
+
+.card-container .button button {
+    padding: 8px 45.8px;
+}
+
+.card-container .button button a {
+    color: white;
+}
+
+.card-container .link-buy {
+    padding-top: 26px;
+}
+
+.card-container .link-buy a {
+    color: rgb(0, 97, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(111, 190, 221);
+}
+
+.card-container .title-priority h3 {
+    padding-top: 25px;
+}
+
+.card-container .priority {
+    padding-top: 15px;
+}
+
+/* .card-container .priority ul {
+    
+} */
+
+.priority ul .line {
+    line-height: 33px;
+}
+
+.priority ul .no-line {
+    padding-bottom: 5px;
+}
+
+.priority ul li .check {
+    color: rgb(0, 97, 255);
 }
 
 #bg-footer {
@@ -175,4 +247,8 @@ header .button-inizia #inizia {
 
 .selection #right-selection {
     margin-left: 15px;
+}
+
+.cards-services .container #middle-card {
+    margin: 0 37.7px;
 }
