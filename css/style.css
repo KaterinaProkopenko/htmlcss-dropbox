@@ -16,7 +16,7 @@ header{
     line-height: 70px;
 }
 
-li {
+header li {
     display: inline-block;
     padding: 0 15px;
 }
@@ -111,6 +111,49 @@ header .float-right {
     float: left;
 }
 
+.cards-services {
+    margin-top: 120px;
+}
+
+.cards-services .container .selection {
+    padding-bottom: 25px;
+}
+
+.cards-services .container .cards-services-title h1 {
+    padding-bottom: 30px;
+}
+
+.cards-services .container .card {
+    width: 20%;
+    height: 300px;
+    background-color: rosybrown;
+}
+
+.cards-services .container .card .type {
+    width: 100%;
+    height: 35px;
+    background-color: slateblue;
+    line-height: 35px;
+    text-align: center;
+}
+
+.card .card-container {
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: wheat;
+}
+
+.card .card-container .border {
+    width: 55px;
+    height: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.card-container .priority ul li {
+    list-style-type: none;
+}
+
 #bg-footer {
     background-color: darkred;
     margin-top: 130px;
@@ -128,4 +171,8 @@ header .button-inizia #inizia {
 .jumbotron-text #annulla {
     margin-top: 10px;
     font-size: 11px;
+}
+
+.selection #right-selection {
+    margin-left: 15px;
 }
