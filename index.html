@@ -75,7 +75,7 @@
         </section>
 
         <section class="cards-services">
-            <div class="container">
+            <div class="container clearfix">
                 
                 <!-- Titolo -->
                 <div class="cards-services-title">
@@ -88,26 +88,28 @@
                     <input id="right-selection" type="radio"> Fatturazione annuale
                 </div>
 
-                <!-- Cards -->
+                <!-- Prima carta -->
                 <div class="card">
 
                     <div class="type">
                         <i class="sign-type far fa-user"></i> Singolo
                     </div>
-
+                    
                     <div class="card-container">
+                        
                         <!-- h2 -->
                         <div class="user">
                             <h2>Professional</h2>
                         </div>
+                        
                         <!-- price -->
                         <div class="price">
                             <div class="price-month">19,99 &euro;</div>
-                            <div class="month">/mese</div>
+                            <div class="month">/ mese</div>
                         </div>
 
                         <!-- utente -->
-                        <div class="price-user">
+                        <div class="quantity">
                             <i class="sign-type far fa-user"></i> 1 utente
                         </div>
                         
@@ -129,8 +131,8 @@
                         </div>
                         
                         <!-- acquista -->
-                        <div class="link-acquisto">
-                            oppure <a href="#">acquista qui</a>
+                        <div class="link-buy">
+                            oppure <a href="#">acquista ora</a>
                         </div>
 
                         <!-- border -->
@@ -144,17 +146,158 @@
                         <!-- lista -->
                         <div class="priority">
                             <ul>
-                                <li><i class="fas fa-check"></i>Invia file a 100 GB con Dropbox Transfert</li>
-                                <li><i class="fas fa-check"></i>Cartelle offline su dispositivi mobili</li>
-                                <li><i class="fas fa-check"></i>Pulizia remota dell'account</li>
-                                <li><i class="fas fa-check"></i>Filigrana documento</li>
-                                <li><i class="fas fa-check"></i>Assistenza prioritaria via email e chat</li>
+                                <li class="no-line"><i class="check fas fa-check"></i> Invia file a 100 GB con Dropbox Transfert</li>
+                                <li class="line"><i class="check fas fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li class="line"><i class="check fas fa-check"></i> Pulizia remota dell'account</li>
+                                <li class="line"><i class="check fas fa-check"></i> Filigrana documento</li>
+                                <li class="line"><i class="check fas fa-check"></i> Assistenza prioritaria via email e chat</li>
                             </ul>
                         </div>
                     </div>
+
                 </div>
 
-                <!-- Vertical card -->
+                <!-- Seconda carta -->
+                <div id="middle-card" class="card">
+
+                    <div class="type">
+                        <i class="far fa-building"></i> Team
+                    </div>
+                    
+                    <div class="card-container">
+                        
+                        <!-- h2 -->
+                        <div class="user">
+                            <h2>Standart</h2>
+                        </div>
+                        
+                        <!-- price -->
+                        <div class="price">
+                            <div class="price-month">19,99 &euro;</div>
+                            <div class="month">/ utente / mese, a partire da 3 utenti</div>
+                        </div>
+
+                        <!-- utente -->
+                        <div class="quantity">
+                            <i class="fas fa-user-plus"></i> 1 utente
+                        </div>
+                        
+                        <!-- spazio -->
+                        <div class="space">
+                            <i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro
+                        </div>
+                        
+                        <!-- funzioni -->
+                        <div class="functions">
+                            <i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura
+                        </div>
+                        
+                        <!-- prova gratis -->
+                        <div class="button">
+                            <button>
+                                <a href="#">Prova gratis per 30 giorni</a>
+                            </button>
+                        </div>
+                        
+                        <!-- acquista -->
+                        <div class="link-buy">
+                            oppure <a href="#">acquista ora</a>
+                        </div>
+
+                        <!-- border -->
+                        <div class="border"></div>
+                        
+                        <!-- h3 -->
+                        <div class="title-priority">
+                            <h3>Punti salienti del piano</h3>
+                        </div>
+                        
+                        <!-- lista -->
+                        <div class="priority">
+                            <ul>
+                                <li class="no-line"><i class="check fas fa-check"></i> Invia file a 100 GB con Dropbox Transfert</li>
+                                <li class="line"><i class="check fas fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li class="line"><i class="check fas fa-check"></i> Pulizia remota dell'account</li>
+                                <li class="line"><i class="check fas fa-check"></i> Filigrana documento</li>
+                                <li class="line"><i class="check fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                <li class="line"><i class="check fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Terza carta -->
+                <div class="card">
+
+                    <div class="type">
+                        <i class="far fa-building"></i> Team
+                    </div>
+                    
+                    <div class="card-container">
+                        
+                        <!-- h2 -->
+                        <div class="user">
+                            <h2>Advanced</h2>
+                        </div>
+                        
+                        <!-- price -->
+                        <div class="price">
+                            <div class="price-month">19,99 &euro;</div>
+                            <div class="month">/ utente /mese, a partire da 3 utenti</div>
+                        </div>
+
+                        <!-- utente -->
+                        <div class="quantity">
+                            <i class="fas fa-user-plus"></i> 1 utente
+                        </div>
+                        
+                        <!-- spazio -->
+                        <div class="space">
+                            <i class="far fa-smile"></i> 3 TB di spazio di archiviazione sicuro
+                        </div>
+                        
+                        <!-- funzioni -->
+                        <div class="functions">
+                            <i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura
+                        </div>
+                        
+                        <!-- prova gratis -->
+                        <div class="button">
+                            <button>
+                                <a href="#">Prova gratis per 30 giorni</a>
+                            </button>
+                        </div>
+                        
+                        <!-- acquista -->
+                        <div class="link-buy">
+                            oppure <a href="#">acquista ora</a>
+                        </div>
+
+                        <!-- border -->
+                        <div class="border"></div>
+                        
+                        <!-- h3 -->
+                        <div class="title-priority">
+                            <h3>Punti salienti del piano</h3>
+                        </div>
+                        
+                        <!-- lista -->
+                        <div class="priority">
+                            <ul>
+                                <li class="no-line"><i class="check fas fa-check"></i> Invia file a 100 GB con Dropbox Transfert</li>
+                                <li class="line"><i class="check fas fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li class="line"><i class="check fas fa-check"></i> Pulizia remota dell'account</li>
+                                <li class="line"><i class="check fas fa-check"></i> Filigrana documento</li>
+                                <li class="line"><i class="check fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                <li class="line"><i class="check fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
             </div>
         </section>
 
