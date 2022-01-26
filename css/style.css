@@ -31,16 +31,35 @@ button {
     border: 1px solid rgb(0, 97, 255);
 }
 
+header .logo img {
+    vertical-align: sub;
+}
+
+header .button-inizia #inizia a,
+#jumbotron .large-container .container .jumbotron-text a {
+    color: white;
+}
+
+.jumbotron-img img {
+    width: 700px;
+    height: 380px;
+}
+
+.title h1 {
+    font-size: 60px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
 .large-container{
     width: 100%;
-    height: 500px;
-    background-color: darkgrey;
+    height: 545px;
+    background-color: rgb(180, 208, 231);
 }
 
 .container {
     width: 80%;
     height: 600px;
-    background-color: darkkhaki;
     margin: 0 auto;
 }
 
@@ -75,12 +94,21 @@ header .float-right {
     margin: 0 25px;
 }
 
-header .logo img {
-    vertical-align: sub;
+.jumbotron-text .arrow{
+    font-size: 50px;
+    margin-top: 35px;
 }
 
-header .button-inizia #inizia a {
-    color: white;
+#jumbotron .large-container .container .jumbotron-text {
+    width: 35%;
+}
+
+#jumbotron .large-container .container .jumbotron-img {
+    width: 65%;
+}
+
+.jumbotron-text, .jumbotron-img {
+    float: left;
 }
 
 #bg-footer {
@@ -90,4 +118,14 @@ header .button-inizia #inizia a {
 
 header .button-inizia #inizia {
     padding: 3px 15px;
+}
+
+.jumbotron-text #jumbotron-button {
+    padding: 8px 15px;
+    margin-top: 25px;
+}
+
+.jumbotron-text #annulla {
+    margin-top: 10px;
+    font-size: 11px;
 }
