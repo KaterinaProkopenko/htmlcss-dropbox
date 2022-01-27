@@ -36,7 +36,7 @@ header .logo img {
 }
 
 header .button-inizia #inizia a,
-#jumbotron .large-container .container .jumbotron-text a {
+.container .jumbotron-text a {
     color: white;
 }
 
@@ -73,16 +73,6 @@ header .button-inizia {
     height: 100%;
 }
 
-header .logo,
-header .float-left {
-    float: left;
-}
-
-header .button-inizia,
-header .float-right {
-    float: right;
-}
-
 header .logo {
     width: 127px;
     height: 100%;
@@ -99,16 +89,27 @@ header .float-right {
     margin-top: 35px;
 }
 
-#jumbotron .large-container .container .jumbotron-text {
+.large-container .container .jumbotron-text {
     width: 35%;
 }
 
-#jumbotron .large-container .container .jumbotron-img {
+.large-container .container .jumbotron-img {
     width: 65%;
 }
 
-.jumbotron-text, .jumbotron-img {
+header .logo,
+header .float-left,
+.jumbotron-text, .jumbotron-img, 
+.card, .vertical-card,
+.vertical-card-title, .subtitle,
+.description-vertical-card {
     float: left;
+}
+
+header .button-inizia,
+header .float-right,
+.contact-button {
+    float: right;
 }
 
 .cards-services {
@@ -119,73 +120,74 @@ header .float-right {
     padding-bottom: 25px;
 }
 
-.cards-services .container .cards-services-title h1 {
+.container .cards-services-title h1 {
     padding-bottom: 30px;
 }
 
 .cards-services .container .card {
     width: 31%;
-    background-color: rosybrown;
-    float: left;
-    border: 1px solid gray;
+    height: 820px;
 }
 
 .cards-services .container .vertical-card {
     width: 100%;
-    height: 300px;
-    background-color: crimson;
-    float: left;
     margin-top: 37px;
+}
+
+.cards-services .container .border {
     border: 1px solid gray;
 }
 
-.cards-services .container .card .type {
+.type {
     width: 100%;
     height: 35px;
-    background-color: slateblue;
     line-height: 35px;
     text-align: center;
-    border: 1px solid gray;
-}
-
-.vertical-card .type-vertical {
-    width: 100%;
-    height: 35px;
-    background-color: darkgreen;
-    line-height: 35px;
-    text-align: center;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .card .card-container {
     width: 75%;
-    margin: 0 auto;
-    background-color: wheat;
     font-size: 13px;
 }
 
 .vertical-card .vertical-card-container {
     width: 92%;
-    height: 265px;
+}
+
+.card-container, .vertical-card-container {
     margin: 0 auto;
-    background-color: hotpink;
 }
 
 .vertical-card-container .vertical-card-title {
-    float:left;
     padding-top: 25px;
 }
 
 .vertical-card-container .contact-button {
-    float: right;
     padding-top: 25px;
+}
+
+.vertical-card-container .subtitle {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.vertical-card-container .description-vertical-card {
+    width: 100%;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 .vertical-card-container .contact-button button {
     padding: 8px 65px;
 }
 
-.card .card-container .border {
+.contact-button button a {
+    color: white;
+}
+
+.card .card-container .border-line {
     width: 55px;
     height: 5px;
     border-bottom: 1px solid gray;
@@ -196,7 +198,7 @@ header .float-right {
     list-style-type: none;
 }
 
-.card .card-container .user h2 {
+.card-container .user h2 {
     font-size: 18px;
     padding-top: 18px;
 }
@@ -224,7 +226,7 @@ header .float-right {
 }
 
 .card-container .button button {
-    padding: 8px 45.8px;
+    padding: 8px 49.2px;
 }
 
 .card-container .button button a {
@@ -239,6 +241,7 @@ header .float-right {
     color: rgb(0, 97, 255);
     text-decoration: underline;
     text-decoration-color: rgb(111, 190, 221);
+    font-weight: 700;
 }
 
 .card-container .title-priority h3 {
@@ -248,10 +251,6 @@ header .float-right {
 .card-container .priority {
     padding-top: 15px;
 }
-
-/* .card-container .priority ul {
-    
-} */
 
 .priority ul .line {
     line-height: 33px;
@@ -289,5 +288,5 @@ header .button-inizia #inizia {
 }
 
 .cards-services .container #middle-card {
-    margin: 0 37.7px;
+    margin: 0 3.5%;
 }
