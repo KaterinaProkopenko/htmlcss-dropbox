@@ -108,7 +108,8 @@ header .float-left,
 .vertical-card-title, .subtitle,
 .description-vertical-card,
 .img-partner, .text-partner,
-.operation-card, .first-column {
+.operation-card, .first-column,
+.team-logo {
     float: left;
 }
 
@@ -377,9 +378,16 @@ header .float-right,
 
 .row-companies .first-column,
 .row-companies .second-column {
-    width: 30%;
-    height: 100%;
+    width: 400px;
+    height: 400px;
     background-color: maroon;
+}
+
+.first-column .team-logo {
+    width: 200px;
+    height: 200px;
+    line-height: 190px;
+    text-align: center;
 }
 
 
@@ -418,3 +426,53 @@ header .button-inizia #inizia {
 .contenitore #first-row {
     margin-bottom: 60px;
 }
+
+.first-column #bg-designit {
+    background-color: rgb(162, 211, 155);
+    border: 9px solid rgb(208, 233, 205);
+}
+
+.team-logo #designit {
+    width: 170px;
+    height: 40px;
+    filter: invert(1);
+    position: relative;
+    top: 10px;
+}
+
+.first-column #bg-arizona {
+    background-color: rgb(97, 8, 43);
+}
+
+.team-logo #arizona {
+    width: 100px;
+    height: 75px;
+    filter: invert(1);
+    position: relative;
+    top: 34px;
+}
+
+.first-column #bg-florida {
+    background-color: rgb(0, 147, 206);
+}
+
+.team-logo #florida {
+    width: 100px;
+    height: 20px;
+    filter: invert(1);
+    position: relative;
+    top: 10px;
+}
+
+.first-column #bg-topps {
+    background-color: rgb(255, 28, 28);
+}
+
+.team-logo #topps {
+    width: 100px;
+    height: 45px;
+    filter: invert(1);
+    position: relative;
+    top: 15px;
+}
+
