@@ -16,6 +16,10 @@ header{
     line-height: 70px;
 }
 
+section {
+    min-width: 650px;
+}
+
 header li {
     display: inline-block;
     padding: 0 15px;
@@ -103,7 +107,8 @@ header .float-left,
 .card, .vertical-card,
 .vertical-card-title, .subtitle,
 .description-vertical-card,
-.img-partner, .text-partner {
+.img-partner, .text-partner,
+.operation-card {
     float: left;
 }
 
@@ -249,7 +254,9 @@ header .float-right,
     padding-top: 25px;
 }
 
-.card-container .priority {
+.card-container .priority,
+.operation-card h3,
+.operation-card p {
     padding-top: 15px;
 }
 
@@ -284,7 +291,7 @@ header .float-right,
 
 .container .text-partner {
     width: 40%;
-    margin-left: 64.2px;
+    margin-left: 60px;
 }
 
 .img-partner img {
@@ -311,10 +318,44 @@ header .float-right,
 }
 
 
-#bg-footer {
-    background-color: darkred;
-    margin-top: 130px;
+
+.operation .contenitore {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
 }
+
+.contenitore h2 {
+    padding-bottom: 25px;
+}
+
+.contenitore .operation-row {
+    width: 100%;
+}
+
+.operation-row .operation-card {
+    width: 30%;
+}
+
+.operation-row .op-card-middle {
+    margin: 0 5%;
+}
+
+.operation-card img {
+    width: 324px;
+    height: 240px;
+}
+
+ {
+    padding-top: 15px;
+}
+
+
+
+/* #bg-footer {
+    background-color: darkred;
+    margin-top: 200px;
+} */
 
 header .button-inizia #inizia {
     padding: 3px 15px;
@@ -336,4 +377,13 @@ header .button-inizia #inizia {
 
 .cards-services .container #middle-card {
     margin: 0 3.5%;
+}
+
+.operation-card p #underline {
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+.contenitore #first-row {
+    margin-bottom: 60px;
 }
