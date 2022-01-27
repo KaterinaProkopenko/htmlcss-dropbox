@@ -130,10 +130,28 @@ header .float-right {
     border: 1px solid gray;
 }
 
+.cards-services .container .vertical-card {
+    width: 100%;
+    height: 300px;
+    background-color: crimson;
+    float: left;
+    margin-top: 37px;
+    border: 1px solid gray;
+}
+
 .cards-services .container .card .type {
     width: 100%;
     height: 35px;
     background-color: slateblue;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.vertical-card .type-vertical {
+    width: 100%;
+    height: 35px;
+    background-color: darkgreen;
     line-height: 35px;
     text-align: center;
     border: 1px solid gray;
@@ -144,6 +162,27 @@ header .float-right {
     margin: 0 auto;
     background-color: wheat;
     font-size: 13px;
+}
+
+.vertical-card .vertical-card-container {
+    width: 92%;
+    height: 265px;
+    margin: 0 auto;
+    background-color: hotpink;
+}
+
+.vertical-card-container .vertical-card-title {
+    float:left;
+    padding-top: 25px;
+}
+
+.vertical-card-container .contact-button {
+    float: right;
+    padding-top: 25px;
+}
+
+.vertical-card-container .contact-button button {
+    padding: 8px 65px;
 }
 
 .card .card-container .border {
