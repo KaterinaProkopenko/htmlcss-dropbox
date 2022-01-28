@@ -56,7 +56,8 @@ header .button-inizia #inizia a,
 }
 
 .large-container{
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     height: 545px;
     background-color: rgb(180, 208, 231);
 }
@@ -109,7 +110,7 @@ header .float-left,
 .description-vertical-card,
 .img-partner, .text-partner,
 .operation-card, .first-column,
-.team-logo {
+.team-logo, .text-teams {
     float: left;
 }
 
@@ -129,6 +130,7 @@ header .float-right,
 
 .container .cards-services-title h1 {
     padding-bottom: 30px;
+    font-size: 35px;
 }
 
 .cards-services .container .card {
@@ -324,8 +326,9 @@ header .float-right,
     margin-top: 120px;
 }
 
-.contenitore h2 {
+.contenitore .operation-title h1 {
     padding-bottom: 25px;
+    font-size: 35px;
 }
 
 .contenitore .operation-row {
@@ -347,17 +350,20 @@ header .float-right,
 
 
 .teams {
-    margin-top: 60px;
+    margin-top: 120px;
 }
 
 .teams .container {
     width: 80%;
-    height: 140px;
-    background-color: greenyellow;
+    height: 170px;
 }
 
 .container .teams-title {
-    width: 30%;
+    width: 46%;
+}
+
+.teams-title h1 {
+    font-size: 35px;
 }
 
 .container .find-more {
@@ -373,23 +379,79 @@ header .float-right,
 .large-container .row-companies {
     width: 100%;
     height: 400px;
-    background-color: lightgreen;
 }
 
 .row-companies .first-column,
 .row-companies .second-column {
     width: 400px;
     height: 400px;
-    background-color: maroon;
 }
 
-.first-column .team-logo {
+.first-column .team-logo,
+.second-column .team-logo {
     width: 200px;
     height: 200px;
     line-height: 190px;
     text-align: center;
 }
 
+.row-companies .text-teams {
+    width: calc(100% - 800px);
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+}
+
+.text-teams .text-container {
+    width: 87%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.text-container .logo-text {
+    height: 100px;
+}
+
+.text-container .citation p {
+    padding: 35px 0;
+}
+
+.teams .large-container {
+    height: 650px;
+}
+
+.large-container .business {
+    height: 38.5%;
+}
+
+.container .row-business {
+    width: 100%;
+    height: 100%;
+}
+
+.title-business h1 {
+    color: rgb(97, 8, 43);
+    font-size: 35px;
+    position: relative;
+    top: 32%;
+}
+
+.title-business, .prova-button {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.row-business .prova-button {
+    margin-left: 20%;
+}
+
+.prova-button button {
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px 50px;
+    position: relative;
+    top: 34%;
+}
 
 /* #bg-footer {
     background-color: darkred;
@@ -475,4 +537,67 @@ header .button-inizia #inizia {
     position: relative;
     top: 15px;
 }
+
+.second-column #bg-bicycle {
+    background-color: rgb(213, 0, 31);
+}
+
+.team-logo #bicycle {
+    width: 100px;
+    height: 45px;
+    filter: invert(1);
+    position: relative;
+    top: 20px;
+}
+
+.second-column #bg-hearst {
+    background-color: rgb(180, 208, 231);
+}
+
+.team-logo #hearst {
+    width: 105px;
+    height: 35px;
+    filter: invert(1);
+    position: relative;
+    top: 15px;
+}
+
+.second-column #bg-planet {
+    background-color: rgb(13, 36, 129);
+}
+
+.team-logo #planet {
+    width: 105px;
+    height: 60px;
+    filter: invert(1);
+    position: relative;
+    top: 25px;
+}
+
+.second-column #bg-channel {
+    background-color: rgb(255, 216, 48);
+}
+
+.team-logo #channel {
+    width: 105px;
+    height: 70px;
+    filter: invert(1);
+    position: relative;
+    top: 32px;
+}
+
+.logo-text #designit-logo {
+    width: 110px;
+    height: 46px;
+    margin-top: 30px;
+}
+
+.logo-text #border-logo {
+    width: 40px;
+    height: 10px;
+    border-bottom: 2px solid gray;
+    position: relative;
+    top: 10px;
+}
+
 
