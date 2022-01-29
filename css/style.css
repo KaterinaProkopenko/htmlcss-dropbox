@@ -7,17 +7,17 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    min-width: 650px;
-    width: 100%;
 }
 
 header{
-    min-width: 1270px;
     width: 100%;
     height: 70px;
     padding: 0 10px;
     line-height: 70px;
     background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
 footer {
@@ -27,6 +27,10 @@ footer {
 header li {
     display: inline-block;
     padding: 0 15px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 a {
@@ -57,6 +61,10 @@ header .logo img {
     font-size: 60px;
     padding-top: 35px;
     padding-bottom: 20px;
+}
+
+#jumbotron .large-container {
+    margin-top: 70px;
 }
 
 .large-container{
@@ -318,6 +326,11 @@ header .list-right {
     background-color: white;
 }
 
+.operation {
+    min-width: 900px;
+    width: 100%;
+}
+
 .operation .contenitore {
     width: 80%;
     margin: 0 auto;
@@ -525,6 +538,10 @@ footer > .large-container {
     font-size: 19px;
 }
 
+.footer-column ul li a {
+    color: white;
+}
+
 .footer-container .footer-bottom {
     width: 100%;
 }
@@ -694,5 +711,3 @@ header .button-inizia #inizia {
 .list-questions ul #line-bottom {
     border-bottom: 1px solid lightgray;
 }
-
-
