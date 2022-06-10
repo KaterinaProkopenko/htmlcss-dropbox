@@ -443,7 +443,8 @@ header .list-right {
     color: rgb(97, 8, 43);
     font-size: 35px;
     position: relative;
-    top: 30%;
+    padding-top: 45px;
+    /* top: 30%; */
 }
 
 .title-business, .prova-button {
@@ -453,6 +454,7 @@ header .list-right {
 
 .row-business .prova-button {
     margin-left: 20%;
+    margin-top: 100px;
 }
 
 .prova-button button {
